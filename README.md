@@ -103,11 +103,19 @@ Feel free to open an [issue](https://github.com/MattiaPasti/social-finder/issues
 
 ---
 
+## 📸 Preview
+
+<img width="1913" height="896" alt="Screenshot 2025-08-29 215135" src="https://github.com/user-attachments/assets/47c0b74f-e1c3-442f-99a5-096490183645" />
+
+##
+
+<img width="1885" height="894" alt="Screenshot 2025-08-29 215802" src="https://github.com/user-attachments/assets/05a6f3d8-f2f8-4198-a848-ad783e3dabb5" />
+
+##
+
+<img width="1890" height="901" alt="Screenshot 2025-08-29 215831" src="https://github.com/user-attachments/assets/7162ee9d-97da-4489-b15c-361263c6d8c8" />
+
+
+---
+
 > ⚡ Built with ❤️ for OSINT & Cybersecurity research.
-
-```
-
-<img width="1913" height="896" alt="Screenshot 2025-08-29 215135" src="https://github.com/user-attachments/assets/e4e4fca4-4bd1-4eac-8cf4-0361eb50a33f" />
-
-
-```

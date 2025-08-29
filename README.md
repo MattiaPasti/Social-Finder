@@ -7,7 +7,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![OSINT](https://img.shields.io/badge/OSINT-FF6F00?style=for-the-badge&logo=hackaday&logoColor=white)
 
-[![Demo](https://img.shields.io/badge/🌍_Live_Demo-Social_Finder-2E7D32?style=for-the-badge)](https://social.lovedy.org)
+[![Demo](https://img.shields.io/badge/🌍_Live_Demo-Social_Finder-2E7D32?style=for-the-badge)](https://lovedy.org)
 
 ---
 
@@ -77,7 +77,7 @@ App will run on: `http://localhost:8000`
 ## 🌍 Live Demo
 
 You can test Social Finder directly at:
-👉 [**social.lovedy.org**](https://social.lovedy.org)
+👉 [**social.lovedy.org**](https://lovedy.org)
 
 ---
 
@@ -90,7 +90,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to open an [issue](https://github.com/yourusername/social-finder/issues) or submit a pull request.
+Feel free to open an [issue](https://github.com/MattiaPasti/social-finder/issues) or submit a pull request.
 
 ---
 
@@ -107,7 +107,7 @@ Feel free to open an [issue](https://github.com/yourusername/social-finder/issue
 
 ```
 
----
+<img width="1913" height="896" alt="Screenshot 2025-08-29 215135" src="https://github.com/user-attachments/assets/e4e4fca4-4bd1-4eac-8cf4-0361eb50a33f" />
 
-Vuoi che ti metta anche una **preview con screenshot** (se mi carichi un’immagine della dashboard) così la inseriamo nel README?
+
 ```

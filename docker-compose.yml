@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    container_name: socialfinder-flask
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/app            # hot-reload del codice host→container

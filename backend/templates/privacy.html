@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Informativa Privacy — Progetto Studentesco</title>
+    <style>
+      :root {
+        --bg: #0b1020;
+        --card: #0e1530;
+        --text: #e6e8ef;
+        --muted: #b5bed0;
+        --accent: #7aa2ff;
+        --line: #223055;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f7f8fb;
+          --card: #ffffff;
+          --text: #111827;
+          --muted: #4b5563;
+          --accent: #2563eb;
+          --line: #e5e7eb;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 system-ui, sans-serif;
+      }
+      .container {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 28px 18px 48px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 26px;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      nav.top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      .badge {
+        padding: 0.3rem 0.6rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .nav-btn {
+        margin-left: 10px;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .nav-btn:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 28px;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="top">
+        <span class="badge">🔒 Privacy & GDPR</span>
+        <div class="links">
+          <a class="nav-btn" href="disclaimer" target="_blank" rel="noopener noreferrer">Disclaimer</a>
+          <a class="nav-btn" href="/" target="_blank" rel="noopener noreferrer">Home</a>
+        </div>
+      </nav>
+
+      <article class="card">
+        <h1>Informativa Privacy</h1>
+        <p>
+          <strong>Titolare:</strong> Mattia Pasti — <a href="mailto:pastimattia772@gmail.com">pastimattia772@gmail.com</a>
+        </p>
+
+        <h2>Dati trattati</h2>
+        <ul>
+          <li>Dati tecnici di navigazione (IP, log errori) solo per sicurezza e diagnostica.</li>
+          <li>Cookie tecnici/localStorage (es. preferenze banner). Nessun cookie di profilazione.</li>
+          <li>Dati di contatto (solo se ci scrivi).</li>
+        </ul>
+
+        <h2>Finalità</h2>
+        <p>Dimostrazione didattica / portfolio, sicurezza tecnica, gestione contatti volontari.</p>
+
+        <h2>Diritti</h2>
+        <p>
+          Puoi chiedere accesso, rettifica o cancellazione dei tuoi dati. Per farlo scrivi a <a href="mailto:pastimattia772@gmail.com">questa email</a>.
+        </p>
+
+        <footer>
+          <p>
+            © <span id="y"></span> — Progetto Studentesco • <a href="disclaimer" target="_blank">Disclaimer</a>
+          </p>
+        </footer>
+      </article>
+    </div>
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear()
+    </script>
+  </body>
+</html>

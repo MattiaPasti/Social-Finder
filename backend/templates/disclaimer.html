@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Disclaimer — Progetto Studentesco</title>
+    <style>
+      :root {
+        --bg: #0b1020;
+        --card: #0e1530;
+        --text: #e6e8ef;
+        --muted: #b5bed0;
+        --accent: #7aa2ff;
+        --line: #223055;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f7f8fb;
+          --card: #ffffff;
+          --text: #111827;
+          --muted: #4b5563;
+          --accent: #2563eb;
+          --line: #e5e7eb;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 system-ui, sans-serif;
+      }
+      .container {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 28px 18px 48px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 26px;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      nav.top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      .badge {
+        padding: 0.3rem 0.6rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .nav-btn {
+        margin-left: 10px;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .nav-btn:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 28px;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="top">
+        <span class="badge">🎓 Progetto studentesco</span>
+        <div class="links">
+          <a class="nav-btn" href="privacy" target="_blank" rel="noopener noreferrer">Privacy</a>
+          <a class="nav-btn" href="/" target="_blank" rel="noopener noreferrer">Home</a>
+        </div>
+      </nav>
+
+      <article class="card">
+        <h1>Disclaimer</h1>
+        <p>
+          <strong>Progetto studentesco dimostrativo</strong>, creato a scopo didattico e senza fini commerciali. I contenuti sono forniti "così come sono" senza garanzie.
+        </p>
+
+        <h2>Marchi</h2>
+        <p>I marchi citati appartengono ai rispettivi proprietari. Non esiste alcuna affiliazione o approvazione.</p>
+
+        <h2>Uso</h2>
+        <p>È vietato il riutilizzo dei contenuti per scopi commerciali. L’uso è limitato a consultazione e studio.</p>
+
+        <h2>Contatti</h2>
+        <p>
+          Per segnalazioni scrivi a <a href="mailto:pastimattia772@gmail.com">pastimattia772@gmail.com</a>.
+        </p>
+
+        <footer>
+          <p>
+            © <span id="y"></span> — Progetto Studentesco • <a href="privacy" target="_blank">Privacy</a>
+          </p>
+        </footer>
+      </article>
+    </div>
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear()
+    </script>
+  </body>
+</html>

@@ -1,23 +1,4 @@
-Ottimo 🙌 Ho visto la struttura:
 
-* **Docker Compose + Dockerfile** → il progetto è già containerizzato.
-* **Backend in Python (app.py)** → probabilmente Flask.
-* **Frontend statico (HTML, CSS, JS)** con pagine `index.html`, `privacy.html`, `disclaimer.html`.
-* **requirements.txt** → contiene le dipendenze Python.
-
-Perfetto, ora ti preparo un README in inglese, **stile professionale GitHub**, con:
-
-* Badges (Python, Flask, Docker, OSINT, Gunicorn).
-* Demo link con badge cliccabile.
-* Features del progetto (OSINT Social Finder).
-* Installazione locale e via Docker.
-* Roadmap/Contributing.
-
----
-
-Ecco la prima versione:
-
-````markdown
 # 🔎 Social Finder
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)

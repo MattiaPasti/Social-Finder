@@ -44,7 +44,7 @@ The project is fully containerized with **Docker** and production-ready with **G
 ### 🔧 Local Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/social-finder.git
+git clone https://github.com/MattiaPasti/Social-Finder.git
 cd social-finder/Social
 
 # Install dependencies

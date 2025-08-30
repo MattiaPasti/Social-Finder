@@ -63,7 +63,7 @@ App will run on: `http://localhost:5000`
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/social-finder.git
+git clone https://github.com/MattiaPasti/Social-Finder.git
 cd social-finder/Social
 
 # Build and run
@@ -77,7 +77,7 @@ App will run on: `http://localhost:8000`
 ## 🌍 Live Demo
 
 You can test Social Finder directly at:
-👉 [**social.lovedy.org**](https://lovedy.org)
+👉 [**lovedy.org**](https://lovedy.org)
 
 ---
 

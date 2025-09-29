@@ -77,7 +77,7 @@ App will run on: `http://localhost:8000`
 ## 🌍 Live Demo
 
 You can test Social Finder directly at:
-👉 [**lovedy.org**](https://lovedy.org)
+👉 [**sfinder.mattiapasti.com**](https://sfinder.mattiapasti.com/)
 
 ---
 

@@ -7,7 +7,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![OSINT](https://img.shields.io/badge/OSINT-FF6F00?style=for-the-badge&logo=hackaday&logoColor=white)
 
-[![Demo](https://img.shields.io/badge/🌍_Live_Demo-Social_Finder-2E7D32?style=for-the-badge)](https://lovedy.org)
+[![Demo](https://img.shields.io/badge/🌍_Live_Demo-Social_Finder-2E7D32?style=for-the-badge)](https://sfinder.mattiapasti.com)
 
 ---
 
